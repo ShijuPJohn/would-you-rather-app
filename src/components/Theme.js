@@ -9,6 +9,12 @@ const theme = createMuiTheme({
     },
     typography: {
         fontFamily: 'Roboto',
+        tab: {
+            color:'#fff',
+            fontSize: '1.3rem',
+            fontWeight: '400',
+            textTransform: "none",
+        }
     },
 });
 export default theme
